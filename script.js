@@ -13,13 +13,13 @@ function determineWinner(user, computer) {
     return "Berabere! 🤝";
   }
   if (
-    (user === "taş" && computer === "makas") ||
-    (user === "kağıt" && computer === "taş") ||
-    (user === "makas" && computer === "kağıt")
+    (user === "rock" && computer === "scissors") ||
+    (user === "paper" && computer === "rock") ||
+    (user === "scissors" && computer === "paper")
   ) {
-    return "Tebrikler, kazandın! 🎉";
+    return "Congratulation, you won! 🎉";
   } else {
-    return "Bilgisayar kazandı! 😞";
+    return "Computer won! 😞";
   }
 }
 
