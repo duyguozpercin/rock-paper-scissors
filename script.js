@@ -1,11 +1,11 @@
-const userChoice = prompt("Taş, Kağıt veya Makas?").toLowerCase();
+const userChoice = prompt("Rock, Paper or Scissors").toLowerCase();
 
 
-const choices = ["taş", "kağıt", "makas"];
+const choices = ["Rock", "Paper", "Scissors"];
 const computerChoice = choices[Math.floor(Math.random() * 3)];
 
-console.log(`Senin seçimin: ${userChoice}`);
-console.log(`Bilgisayarın seçimi: ${computerChoice}`);
+console.log(`Your Choice: ${userChoice}`);
+console.log(`Computer's Choise: ${computerChoice}`);
 
 
 function determineWinner(user, computer) {
