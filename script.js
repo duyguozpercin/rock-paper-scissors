@@ -10,7 +10,7 @@ console.log(`Computer's Choise: ${computerChoice}`);
 
 function determineWinner(user, computer) {
   if (user === computer) {
-    return "Berabere! 🤝";
+    return "It's a tie! 🤝";
   }
   if (
     (user === "rock" && computer === "scissors") ||
