@@ -10,16 +10,16 @@ console.log(`Computer's Choise: ${computerChoice}`);
 
 function determineWinner(user, computer) {
   if (user === computer) {
-    return "It's a tie! 🤝";
+    return "It's a tie!";
   }
   if (
     (user === "rock" && computer === "scissors") ||
     (user === "paper" && computer === "rock") ||
     (user === "scissors" && computer === "paper")
   ) {
-    return "Congratulation, you won! 🎉";
+    return "Congratulation, you won!";
   } else {
-    return "Computer won! 😞";
+    return "Computer won!";
   }
 }
 
